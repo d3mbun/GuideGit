@@ -273,6 +273,12 @@ git pull --rebase origin master
 
 # 2. Kiểm tra branch hiện tại
 git branch
+# Nếu muốn chuyển branch từ master sang main gõ:
+git switch main
+# Sau khi chuyển xong, kiểm tra lại:
+git status
+# Kết quả đúng:
+On branch main
 
 # 3. Pull code mới nhất từ remote (Luôn pull trước khi làm bất cứ thay đổi nào)
 git pull origin master
@@ -844,4 +850,5 @@ git reset --hard origin/master
 
 **Tác giả:** d3mbun  
 **Email:** d3mbun@gmail.com  
+
 **Cập nhật lần cuối:** Tháng 1/2026
