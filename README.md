@@ -219,12 +219,13 @@ git clone git@github.com:username/repository.git
 ```
 
 ### Ví dụ lệnh git khi Client gồm cả các file dung lượng lớn up qua LFS
-```bash
-# Máy tính đã cài đặt LFS để push và clone file ở 1 thư mục ban đầu rồi,
-và giờ cần clone ở 1 thư mục mới tạo: F:\TLBB Editor 
-```
+*Máy tính đã cài đặt LFS để push và clone file ở 1 thư mục ban đầu rồi, và giờ cần clone ở 1 thư mục mới tạo: F:\TLBB Editor*
 
 <img width="562" height="688" alt="mintty 2026-03-04_15-08-55" src="https://github.com/user-attachments/assets/1c55e84c-fff5-4b35-a578-75928a3b2c5b" />
+
+*Kết quả clone về máy 2 repo ở thư mục F:\TLBB Editor luôn:*
+
+<img width="668" height="163" alt="image" src="https://github.com/user-attachments/assets/64e1ffb6-32ec-4cac-ab77-c509ead05bbb" />
 
 ### Clone với HTTPS
 
@@ -873,4 +874,5 @@ git reset --hard origin/master
 **Email:** d3mbun@gmail.com  
 
 **Cập nhật lần cuối:** Tháng 1/2026
+
 
