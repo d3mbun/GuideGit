@@ -199,16 +199,37 @@ git push -u origin feature-new-branch
 
 ## 4. Clone Repository về máy
 
-### Clone với HTTPS
+### Khởi tạo khi chưa có repository local (bắt đầu mới hoàn toàn)
+
+Mở phải chuột chọn Git Bash Here tại thư mục muốn tải code:
 
 ```bash
-git clone https://github.com/username/repository.git
+# Khởi tạo Git
+git init
 ```
 
 ### Clone với SSH (khuyến nghị)
 
 ```bash
+git clone git@github.com:d3mbun/TLBBWinnerR_Server.git
+git clone git@github.com:d3mbun/TLBBWinnerR_Client.git
+
+# Mẫu:
 git clone git@github.com:username/repository.git
+```
+
+### Ví dụ lệnh git khi Client gồm cả các file dung lượng lớn up qua LFS
+```bash
+# Máy tính đã cài đặt LFS để push và clone file ở 1 thư mục ban đầu rồi,
+và giờ cần clone ở 1 thư mục mới tạo: F:\TLBB Editor 
+```
+
+<img width="562" height="688" alt="mintty 2026-03-04_15-08-55" src="https://github.com/user-attachments/assets/1c55e84c-fff5-4b35-a578-75928a3b2c5b" />
+
+### Clone với HTTPS
+
+```bash
+git clone https://github.com/username/repository.git
 ```
 
 ### Clone vào thư mục cụ thể
@@ -852,3 +873,4 @@ git reset --hard origin/master
 **Email:** d3mbun@gmail.com  
 
 **Cập nhật lần cuối:** Tháng 1/2026
+
